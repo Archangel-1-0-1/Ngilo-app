@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+*, a{
+  margin:o;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  color:aliceblue
+}
+
+.ngilo-user{
+  background: #8a2a9b;
+  background: linear-gradient(180deg,rgba(138, 42, 155, 1) 0%, rgba(199, 155, 87, 1) 73%, rgba(219, 198, 7, 1) 100%);
+  height: 728px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-login{
+  background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12.5px );
+  -webkit-backdrop-filter: blur( 12.5px );
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  height: 200px;
+}
+.user-login > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-login > form > input{
+ width: 350px;
+ border: 0px;
+ border-radius: 4px;
+ height: 26px;
+}
+
+.user-btn{
+  margin-top: 10px;
+  width: 500px;
+  text-align: center;
+  background-color: black;
+  height: 30px;
+  color: aliceblue;
+  padding: 10px;
+}
